@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gbdivrw"
+version = "0.1.0"
+description = "Core modules for division-profile-driven granular-ball random walk"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Mijia Li"},
+  {name = "Ran Li"},
+  {name = "Hongchang Chen"}
+]
+dependencies = [
+  "numpy>=1.24"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

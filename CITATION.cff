@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+type: software
+title: "GB-DivRW"
+version: 0.1.0
+date-released: 2026-07-15
+repository-code: "https://github.com/nqy-0219/GB-DivRW"
+authors:
+  - family-names: Li
+    given-names: Mijia
+  - family-names: Li
+    given-names: Ran
+  - family-names: Chen
+    given-names: Hongchang
+  - family-names: Liu
+    given-names: Shuxin
+  - family-names: Wang
+    given-names: Chen
+preferred-citation:
+  type: article
+  title: "Division-profile-driven granular-ball random walk with intra-ball object ranking for unsupervised outlier detection"
+  authors:
+    - family-names: Li
+      given-names: Mijia
+    - family-names: Li
+      given-names: Ran
+    - family-names: Chen
+      given-names: Hongchang
+    - family-names: Liu
+      given-names: Shuxin
+    - family-names: Wang
+      given-names: Chen
+  status: "manuscript in preparation"
