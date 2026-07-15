@@ -8,12 +8,6 @@ GB-DivRW is a division-profile-driven granular-ball random walk method for unsup
 2. uniform-restart saliency propagation on a granular-ball dissimilarity graph; and
 3. local--global residual fusion for intra-ball object ranking.
 
-## Scope
-
-The repository is intentionally limited to the central algorithmic modules. It is not a complete experimental reproduction package.
-
-The following components are not included: dataset preparation, granular-ball construction and refinement procedures, benchmark-specific data handling, experimental configurations, baseline implementations, and manuscript result-generation scripts.
-
 ## Installation
 
 ```bash
