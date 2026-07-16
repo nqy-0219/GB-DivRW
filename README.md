@@ -39,8 +39,8 @@ Please cite the associated manuscript when using this software:
 
 ```text
 Mijia Li, Ran Li, Hongchang Chen, Shuxin Liu, and Chen Wang.
-Division-profile-driven granular-ball random walk with intra-ball object ranking
-for unsupervised outlier detection.
+Division-profile-driven granular-ball random walk for unsupervised outlier
+detection.
 ```
 
 Citation metadata is available in [CITATION.cff](CITATION.cff).
