@@ -6,7 +6,7 @@ GB-DivRW is a division-profile-driven granular-ball random walk method for unsup
 
 1. attribute-wise division-profile construction;
 2. uniform-restart saliency propagation on a granular-ball dissimilarity graph; and
-3. local--global residual fusion for intra-ball object ranking.
+3. attribute-space, global-reference division-profile, and within-ball division-profile residual fusion for intra-ball object ranking.
 
 ## Installation
 
@@ -27,7 +27,7 @@ q = division_profile(x, r)
 # Ball centres, profile radii, and ball sizes are supplied by an external granular-ball procedure.
 b = ball_saliency(profile_centres, profile_radii, ball_sizes)
 
-# Object-level residual evidence can then be fused within the assigned ball.
+# Attribute-space and division-profile residuals are fused within the assigned ball.
 residual = intra_ball_residual(attribute_residual, global_profile_residual, local_profile_residual)
 ```
 
